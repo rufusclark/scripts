@@ -18,6 +18,6 @@ sudo ufw allow ssh
 sudo systemctl restart ssh
 
 # print connection instructions
-echo "connect with one of the following commands from another device on the same network with an openssh compatible client"
+echo "connect with one of the following commands from another device on the same network with an openssh compatible client, then sign in with the same username and password as you would locally"
 echo "\tssh `whoami`@`hostname`"
 echo "\tssh `whoami`@`hostname -I`"
